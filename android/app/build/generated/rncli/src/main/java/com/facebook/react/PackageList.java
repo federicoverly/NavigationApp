@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-maps
+import com.airbnb.android.react.maps.MapsPackage;
 // react-native-permissions
 import com.zoontek.rnpermissions.RNPermissionsPackage;
 // react-native-safe-area-context
@@ -70,6 +72,7 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new RNCMaskedViewPackage(),
       new RNGestureHandlerPackage(),
+      new MapsPackage(),
       new RNPermissionsPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
