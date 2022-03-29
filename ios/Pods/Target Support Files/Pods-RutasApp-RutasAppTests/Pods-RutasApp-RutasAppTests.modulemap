@@ -1,0 +1,6 @@
+module Pods_RutasApp_RutasAppTests {
+  umbrella header "Pods-RutasApp-RutasAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
